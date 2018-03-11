@@ -1,0 +1,90 @@
+body {
+	font-family: "freight-sans-pro", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.image .is-320 {
+    width: 400px;
+}
+
+.hero.bgc {
+    background-image: url('./../img/background.svg'), linear-gradient(-135deg, #273238 0%, #3273dc 100%);
+    color: #fff;
+    background-repeat: repeat-x;
+    background-position: 0 40px, 0;
+}
+
+#welcome .title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.125;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.14);
+}
+
+#welcome .title:not(.is-spaced)+.subtitle {
+    margin-top: 2.0rem;
+}
+
+#welcome .subtitle {
+    font-size: 2.0rem;
+    font-weight: 400;
+    line-height: 2.25;
+}
+
+.button.is-custom.is-outlined {
+    background-color: transparent;
+    border-color: #3273dc;
+    color: #3273dc;
+}
+
+.button.is-custom.is-outlined:focus, 
+.button.is-custom.is-outlined:hover {
+    background-color: #3273dc;
+    border-color: #3273dc;
+    color: #fff;
+}
+
+#about.hero.is-custom {
+    background-color: #3273dc;
+    color: #fff;
+}
+#about .title:not(.is-spaced)+.subtitle {
+    margin-top: 2.0rem;
+}
+
+#about a {
+    color: #FFD404;
+    font-weight: 600;
+}
+#about a:hover {
+    text-decoration: underline;
+}
+
+#about img.round {
+    border: 14px solid #FFFFFF;
+    border-radius: 50%;
+    background:  #FFFFFF;
+}
+
+.footer a {
+    color: #4A4A4A;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.modal-custom .button.is-custom {
+    background-color: #3273dc;
+    border-color: transparent;
+    color: #fff;
+}
+
+.modal-custom  .button.is-success.is-hovered, 
+.modal-custom  .button.is-success:hover {
+    background-color: #3273dc;
+    border-color: transparent;
+    color: #fff;
+}
