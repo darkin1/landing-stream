@@ -67,6 +67,11 @@ body {
     background:  #FFFFFF;
 }
 
+#info p {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+}
+
 .footer a {
     color: #4A4A4A;
     font-weight: 600;
